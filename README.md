@@ -2,7 +2,7 @@
 Como sou iniciante em C# e .NET, estou muito focado em aprender as melhores práticas. Se vires algo no código que possa ser refatorado ou melhorado, adoraria receber o teu feedback!
 
 - **O que estou a tentar aprender agora:** Injeção de dependência e persistência de ficheiros.
-- **Como dar feedback:** Pode abrir uma [Issue](link-para-tuas-issues) ou comentar diretamente nos meus commits.
+- **Como dar feedback:** Pode abrir uma [Issue](.github/ISSUE_TEMPLATE) ou comentar diretamente nos meus commits.
 
 ## 🛠️ Como testar as funcionalidades
 Atualmente, o sistema permite:
