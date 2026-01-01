@@ -22,7 +22,8 @@
             Console.WriteLine("\n1 - Salvar chamado");
             Console.WriteLine("2 - Mostrar todos os chamados");
             Console.WriteLine("3 - Buscar chamado por ID");
-            Console.WriteLine("0 - Sair");
+            Console.WriteLine("4 - Gerar relatório de chamados");
+    Console.WriteLine("0 - Sair");
 
             var opcao = Console.ReadLine();
 
@@ -96,13 +97,18 @@
                 Console.WriteLine("⚠️ Chamado não encontrado.");
             }
             break;
+        case "4":
+            var dadosAtuais = armazenamento.ListarTodos();
+            var relatorio = new RelatorioService(dadosAtuais);
+            relatorio.GerarRelatorio();
+            break;
 
 
-              
 
-              
 
-                case "0":
+
+
+        case "0":
                     sair = true;
                     break;
 
